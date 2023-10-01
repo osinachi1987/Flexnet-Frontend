@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/video?f=classic&s=solid">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="main.css">
+    <title>ALX Portfolio Assignment</title>
+</head>
+
+<body>
+    <!-- Header Design & Nav-Bar Design  -->
+    <header>
+        <h2 class="logo"><ion-icon name="videocam"></ion-icon>FlexNet</h2>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#">Generes</a></li>
+                <li><a href="#">Github</a></li>
+            </ul>
+
+        </nav>
+
+        <div><a href="login.html"><button class="btnLogin-popup">Login</button></a>
+        </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="home-text">
+                <span>Sign up for More Movies Suggestions</span>
+                <div class="line1"></div>
+                <h1>MOVIE RECOMMENDATION APP</h1>
+                <div class="btn1">
+                    <a href="login.html" class="play">Start Now</a>
+                </div>
+                <a href="#" class="play">
+                    <ion-icon name="play-circle-outline"></ion-icon></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sections for Movie Category -->
+
+    <section class="gallery">
+        <h4 class="line2">Select Categories</h4>
+        <div class="line2"></div>
+        <div class="category">
+            <div class="row">
+                <div class="gallery-filter">
+                    <span class="filter-item active" data-filter="all">all</span>
+                    <span class="filter-item" data-filter="action">action</span>
+                    <span class="filter-item" data-filter="comedy">comedy</span>
+                    <span class="filter-item" data-filter="drama">drama</span>
+                    <span class="filter-item" data-filter="thriller">thriller</span>
+                    <span class="filter-item" data-filter="adventure">adventure</span>
+                    <span class="filter-item" data-filter="romance">romance</span>
+                    <span class="filter-item" data-filter="crime">crime</span>
+                    <span class="filter-item" data-filter="fiction">fiction</span>
+                    <span class="filter-item" data-filter="fantasy">fantasy</span>
+                </div>
+            </div>
+            <div class="category-poster">
+                <div class="row">
+                    <!-- gallery item start -->
+                    <div class="gallery-item action">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/12_angry_men.jpg" alt="12_angry_men">
+                        </div>
+                    </div>
+                    <!-- gallery item start -->
+                    <div class="gallery-item drama">
+                        <div class="gallery-item-inner">
+                            <img src="images/hollywood/1.jpg" alt="1.jpg">
+                        </div>
+                    </div>
+                    <!-- gallery item start -->
+                    <div class="gallery-item comedy">
+                        <div class="gallery-item-inner">
+                            <img src="images/hollywood/2.jpg" alt="2.jpg">
+                        </div>
+                    </div>
+                    <!-- gallery item start -->
+                    <div class="gallery-item action">
+                        <div class="gallery-item-inner">
+                            <img src="images/hollywood/3.jpg" alt="3.jpg">
+                        </div>
+                    </div>
+                    <!-- gallery item start -->
+                    <div class="gallery-item fiction">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/12_years_a_slave.jpg" alt="12_years_a_slave">
+                        </div>
+                    </div>
+                    <!-- gallery item start -->
+                    <div class="gallery-item adventure">
+                        <div class="gallery-item-inner">
+                            <img src="images/hollywood/8.jpg" alt="8.jpg">
+                        </div>
+                    </div>
+                    <!-- gallery item start -->
+                    <div class="gallery-item crime">
+                        <div class="gallery-item-inner">
+                            <img src="images/hollywood/10.jpg" alt="10.jpg">
+                        </div>
+                    </div>
+                    <!-- gallery item start -->
+                    <div class="gallery-item fantasy">
+                        <div class="gallery-item-inner">
+                            <img src="images/hollywood/13.jpg" alt="shoe">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item crime">
+                        <div class="gallery-item-inner">
+                            <img src="images/hollywood/14.jpg" alt="14.jpg">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item fiction">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/A_Beautiful_Mind.jpg" alt="A_Beautiful_Mind">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item comedy">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/Ace_Ventura__When_Nature_Calls_1995.jpg" alt="Ace_Ventura__When_Nature_Calls_1995">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item fiction">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/parasite.jpg" alt="parasite">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item drama">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/oldboy.jpg" alt="oldboy">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item fiction">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/memento.jpg" alt="memento">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item comedy">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/joker.jpg" alt="joker">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item fantasy">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/interstellar.jpg" alt="interstellar">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item fantasy">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/Inside_Out.jpg" alt="Inside_Out">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item fiction">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/Inception.jpg" alt="Inception">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item comedy">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/Home_Alone.jpg" alt="Home_Alone">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item fiction">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/guardians_of_the_galaxy.jpg" alt="guardians_of_the_galaxy">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item adventure">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/gravity.jpg" alt="gravity">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item fantasy">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/good_will_hunting.jpg" alt="good_will_hunting">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item action">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/gone_girl.jpg" alt="gone_girl">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item thriller">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/Gladiator.jpg" alt="Gladiator">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item romance">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/frozen.jpg" alt="frozen">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item adventure">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/Forrest_Gump.jpg" alt="Forrest_Gump">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item action">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/fight_club.jpg" alt="fight_club">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item fiction">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/Avatar.jpg" alt="Avatar">
+                        </div>
+                    </div>
+                    <!-- gallery item end -->
+                    <!-- gallery item start -->
+                    <div class="gallery-item thriller">
+                        <div class="gallery-item-inner">
+                            <img src="images/Posters/Avengers-Endgame.jpg" alt="Avengers-Endgame">
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section for Movies Recommendation -->
+    <section class="movies" id="movies">
+        <h2 class="movie-heading">Recommendations for this week</h2>
+
+        <!-- Movie container -->
+
+        <div class="movie-container">
+            <!-- Movie box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Lionking.jpg" alt="">
+                </div>
+                <h3>lion King</h3>
+                <span>120 min | Action</span>
+            </div>
+
+            <!-- Movie box 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Inception.jpg" alt="">
+                </div>
+                <h3>Inception</h3>
+                <span>2hr min | Action</span>
+            </div>
+
+            <!-- Movie box 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/wednesday.jpg" alt="">
+                </div>
+                <h3>Wednessday</h3>
+                <span>120 min | Horror</span>
+            </div>
+
+            <!-- Movie box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Joker.jpg" alt="">
+                </div>
+                <h3>Joker</h3>
+                <span>120 min | Thriller</span>
+            </div>
+
+            <!-- Movie box 5 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Starwars.jpg" alt="">
+                </div>
+                <h3>Starwars</h3>
+                <span>120 min | Adventure</span>
+            </div>
+
+            <!-- Movie box 6 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Aliens.jpg" alt="">
+                </div>
+                <h3>Alien</h3>
+                <span>120 min | Adventure</span>
+            </div>
+
+            <!-- Movie box 7 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Aquaman.jpg" alt="">
+                </div>
+                <h3>Aquaman</h3>
+                <span>120 min | Action</span>
+            </div>
+
+            <!-- Movie box 8 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/coco.jpg" alt="">
+                </div>
+                <h3>Coco</h3>
+                <span>120 min | Adventure</span>
+            </div>
+
+
+            <!-- Movie box 9 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Matrix.jpg" alt="">
+                </div>
+                <h3>Matrix Resuration</h3>
+                <span>120 min | Thriller</span>
+            </div>
+
+            <!-- Movie box 10 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/AngryBird.jpg" alt="">
+                </div>
+                <h3>Angry Bird</h3>
+                <span>120 min | Action</span>
+            </div>
+
+            <!-- Movie box 9 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Posters/Back_To_The_Future.jpg" alt="">
+                </div>
+                <h3>Back_To_The_Future</h3>
+                <span>120 min | Thriller</span>
+            </div>
+             <!-- Movie box 9 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="images/Posters/Bad_Boys_1995.jpg" alt="">
+                </div>
+                <h3>Bad_Boys_1995</h3>
+                <span>120 min | Thriller</span>
+            </div>
+             <!-- Movie box 9 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="images/Posters/Batman_Begins.jpg" alt="">
+                </div>
+                <h3>Batman_Begins</h3>
+                <span>120 min | Thriller</span>
+            </div>
+             <!-- Movie box 9 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="images/Posters/casino_royale.jpg" alt="">
+                </div>
+                <h3>casino_royale</h3>
+                <span>120 min | Thriller</span>
+            </div>
+             <!-- Movie box 9 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="images/Posters/Dark_Night_Rises.jpg" alt="">
+                </div>
+                <h3>Dark_Night_Rises</h3>
+                <span>120 min | Thriller</span>
+            </div>
+             <!-- Movie box 9 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="images/Posters/Die_Hard.jpg" alt="">
+                </div>
+                <h3>Die_Hard</h3>
+                <span>120 min | Thriller</span>
+            </div>
+             <!-- Movie box 9 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="images/Posters/Django_Unchained.jpg" alt="">
+                </div>
+                <h3>Django_Unchained</h3>
+                <span>120 min | Thriller</span>
+            </div>
+
+            <!-- Movie box 9 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Posters/Avengers-Endgame.jpg" alt="">
+                </div>
+                <h3>Avengers-Endgame</h3>
+                <span>120 min | Thriller</span>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!-- page footer -->
+
+    <footer>
+        <div class="footer-container" id="about">
+            <div class="company">
+                <h3>COMPANY</h3>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Interest Based Ads</a></li>
+                <li><a href="#">Ad Preferences</a></li>
+                <li><a href="#">Help</a></li>
+            </div>
+            <div class="work">
+                <h3>WORK WITH US</h3>
+                <li><a href="#">Authors</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Authors & ads blog</a></li>
+                <li><a href="#">API</a></li>
+            </div>
+            <div class="social">
+                <h3>CONNECT</h3>
+                <div class="social-icon">
+                    <li><ion-icon name="logo-facebook"></ion-icon></li>
+                    <li><ion-icon name="logo-twitter"></ion-icon></li>
+                    <li><ion-icon name="logo-instagram"></ion-icon></li>
+                    <li><ion-icon name="logo-linkedin"></ion-icon></li>
+                </div>
+            </div>
+            <div class="download">
+                <img src="images/App store.svg" alt="">
+                <img src="images/Googleplay.png" alt="">
+            </div>
+        </div>
+        <h5 class="copy-right"> &copy ALX Portfolio Final Project, All Rights
+            Reserved-2023.</h5>
+    </footer>
+
+
+    <!-- Swiper JS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
