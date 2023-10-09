@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,100&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="movies.css">
     <title>ALX Portfolio Assignment</title>
 </head>
 
@@ -21,9 +21,9 @@
         <nav class="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#movies">Movies</a></li>
+                <li><a href="movies.html">GET NEXT</a></li>
                 <li><a href="#gallary">Generes</a></li>
-                <li><a href="https://github.com/osinachi1987/Flexnet-Frontend.git">Github</a></li>
+                <li><a href="#">Github</a></li>
             </ul>
 
         </nav>
@@ -32,22 +32,74 @@
         </div>
         <div class="bx bx-menu" id="menu-icon"></div>
     </header>
-    <section class="home swiper" id="home">
-        <div class="swiper-wrapper">
-            <div class="home-text">
-                <span>Sign up for More Movies Suggestions</span>
-                <div class="line1"></div>
-                <h1>MOVIE RECOMMENDATION APP</h1>
-                <div class="btn1">
-                    <a href="movies.html" class="play" id="play">Start Now</a>
+
+    <div class="bg-img">
+        <section class="content-section">
+            <div class="info-container">
+                <div class="details-container">
+                    <div class="logo-container title-info">
+                        <h1></h1>
+                    </div>
                 </div>
-                <a href="#" class="play">
-                    <ion-icon name="play-circle-outline"></ion-icon></a>
+                <div class="title-info-metadata-wrapper">
+                    <span class="title-info-metadata-item item-year">
+                        <span>2019</span>
+                    </span>
+                    <span class="info-spacer"> | </span>
+                    <span class="title-info-metadata-item item-maturity">
+                        <span class="maturity-number"></span>
+                    </span>
+                    <span class="info-spacer"> | </span>
+                    <span class="title-info-metadata-item item-vote">
+                        <span class="duration vote-average"></span>
+                    </span>
+                    <span class="info-spacer"> | </span>
+                    <span class="title-info-metadata-item item-language">
+                        <span class="language"></span>
+                    </span>
+                </div>
+                <div>
+                    <div class="title-info-synopsis">
+                    </div>
+                </div>
+                <div class="btn">
+                    <a href="/movies.html"><button class="btn-Play">GET NEXT</button></a>
+                    <div class="list">
+                        <a href="/indexAPI.html"><button class="btn-Play"> LIST </button></a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+
+        <!-- <section class="Recommandation-section">
+            <div class="title">
+                <div class="arrow">
+                    <div class="circle">
+                        <span class="material-symbols-outlined back" id="left">
+                            <ion-icon name="caret-back-outline">arrow_back_ios_new</ion-icon>
+                        </span>
+                    </div>
+                    <div class="circle">
+                        <span class="material-symbols-outlined next" id="right">
+                            <ion-icon name="caret-forward-outline">navigate_next</ion-icon>
+                        </span>
+                    </div>
+                </div>
+                <div class="container-text">
+                    <span class="Recommandation-text">Recommandation</span>
+                </div>
+            </div>
+        
+            <div class="wrapper" id="imageContainer">
+                <div class="carousel">
+                </div>
+            </div>
+        </section> -->
+    </div>
 
     <!-- Sections for Movie Category -->
+
 
     <section class="gallery" id="gallary">
         <h4 class="line2">Select Categories</h4>
@@ -135,7 +187,8 @@
                     <!-- gallery item start -->
                     <div class="gallery-item comedy">
                         <div class="gallery-item-inner">
-                            <img src="images/Posters/Ace_Ventura__When_Nature_Calls_1995.jpg" alt="Ace_Ventura__When_Nature_Calls_1995">
+                            <img src="images/Posters/Ace_Ventura__When_Nature_Calls_1995.jpg"
+                                alt="Ace_Ventura__When_Nature_Calls_1995">
                         </div>
                     </div>
                     <!-- gallery item end -->
@@ -376,48 +429,48 @@
                 <h3>Back_To_The_Future</h3>
                 <span>120 min | Thriller</span>
             </div>
-             <!-- Movie box 9 -->
-             <div class="box">
+            <!-- Movie box 9 -->
+            <div class="box">
                 <div class="box-img">
                     <img src="images/Posters/Bad_Boys_1995.jpg" alt="">
                 </div>
                 <h3>Bad_Boys_1995</h3>
                 <span>120 min | Thriller</span>
             </div>
-             <!-- Movie box 9 -->
-             <div class="box">
+            <!-- Movie box 9 -->
+            <div class="box">
                 <div class="box-img">
                     <img src="images/Posters/Batman_Begins.jpg" alt="">
                 </div>
                 <h3>Batman_Begins</h3>
                 <span>120 min | Thriller</span>
             </div>
-             <!-- Movie box 9 -->
-             <div class="box">
+            <!-- Movie box 9 -->
+            <div class="box">
                 <div class="box-img">
                     <img src="images/Posters/casino_royale.jpg" alt="">
                 </div>
                 <h3>casino_royale</h3>
                 <span>120 min | Thriller</span>
             </div>
-             <!-- Movie box 9 -->
-             <div class="box">
+            <!-- Movie box 9 -->
+            <div class="box">
                 <div class="box-img">
                     <img src="images/Posters/Dark_Night_Rises.jpg" alt="">
                 </div>
                 <h3>Dark_Night_Rises</h3>
                 <span>120 min | Thriller</span>
             </div>
-             <!-- Movie box 9 -->
-             <div class="box">
+            <!-- Movie box 9 -->
+            <div class="box">
                 <div class="box-img">
                     <img src="images/Posters/Die_Hard.jpg" alt="">
                 </div>
                 <h3>Die_Hard</h3>
                 <span>120 min | Thriller</span>
             </div>
-             <!-- Movie box 9 -->
-             <div class="box">
+            <!-- Movie box 9 -->
+            <div class="box">
                 <div class="box-img">
                     <img src="images/Posters/Django_Unchained.jpg" alt="">
                 </div>
@@ -480,10 +533,12 @@
     </footer>
 
 
-    <!-- Swiper JS -->
+    <!--  JS -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./movie-api.js"></script>
+    <script src="./movie.js"></script>
     <script src="./main.js"></script>
 </body>
 

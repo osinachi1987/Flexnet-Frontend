@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/video?f=classic&s=solid">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="stylesAPI.css">
+    <title>Flexnet API</title>
+</head>
+<body>
+
+     <!-- Header Design & Nav-Bar Design  -->
+     <header>
+        <h2 class="logo"><ion-icon name="videocam"></ion-icon>FlexNet</h2>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Back</a></li>
+                <li><a href="#">Generes</a></li>
+                <li><a href="https://github.com/osinachi1987/Flexnet-Frontend.git">Github</a></li>
+            </ul>
+
+        </nav>
+
+        <div><a href="login.html"><button class="btnLogin-popup">Login</button></a>
+        </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+<!-- Section for Movies Recommendation -->
+<section class="movies" id="movies">
+    <h2 class="movie-heading">Recommendations</h2>
+
+    <!-- Movie container -->
+
+    <div class="movie-container" id="get-api">
+        <!-- Movie box 1 -->
+        <div class="box" id="filmTitle">
+            <div class="box-img" id="images">
+                <!-- <img src="images/Lionking.jpg" alt="img" Class="images"> -->
+            </div>
+            <h3><p id="filmDescription"></p></h3>
+            <span id="filmGenres"></span>
+        </div>
+    </div>
+</section>      
+<footer>
+    <div class="footer-container" id="about">
+        <div class="company">
+            <h3>COMPANY</h3>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Interest Based Ads</a></li>
+            <li><a href="#">Ad Preferences</a></li>
+            <li><a href="#">Help</a></li>
+        </div>
+        <div class="work">
+            <h3>WORK WITH US</h3>
+            <li><a href="#">Authors</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Authors & ads blog</a></li>
+            <li><a href="#">API</a></li>
+        </div>
+        <div class="social">
+            <h3>CONNECT</h3>
+            <div class="social-icon">
+                <li><ion-icon name="logo-facebook"></ion-icon></li>
+                <li><ion-icon name="logo-twitter"></ion-icon></li>
+                <li><ion-icon name="logo-instagram"></ion-icon></li>
+                <li><ion-icon name="logo-linkedin"></ion-icon></li>
+            </div>
+        </div>
+        <div class="download">
+            <img src="images/App store.svg" alt="">
+            <img src="images/Googleplay.png" alt="">
+        </div>
+    </div>
+    <h5 class="copy-right"> &copy ALX Portfolio Final Project, All Rights
+        Reserved-2023.</h5>
+</footer>
+
+
+<!-- Swiper JS -->  
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./flexnetImproved.js"></script>
+</body>
+</html>
